@@ -1,28 +1,40 @@
-name: skybluelangues.
 favicon: null
-layout_spectrum: 0.40205307165160775
-typography_spectrum: 0.9187450229655951
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: skybluelangues.
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
-  brandStrength: 0.8429714215453714
-  lightness: 0.7592211009468883
-  saturation: 0.9019541179295629
-  rhythmicContrast: 0.31366649316623807
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.4918546
+  brandStrength: 0.8429714215453714
+  lightness: 0.5482456
+  brandColors:
+    - '#FFFFFE'
+    - '#DEE02A'
+    - '#3A78B0'
+    - '#8FC0DB'
+    - '#181817'
+  rhythmicContrast: 0.6121554
+typography_spectrum: 0.9187450229655951
+layout_spectrum: 0.4097744
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
